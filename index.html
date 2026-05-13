@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PJ VISUALS | Cinematic Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
+
+    <nav class="navbar">
+        <div class="logo">PJ</div>
+        <ul class="nav-links">
+            <li><a href="#work" class="hover-link">Visuals</a></li>
+            <li><a href="#projects" class="hover-link">Code</a></li>
+            <li><a href="#contact" class="hover-link">Contact</a></li>
+        </ul>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-content reveal">
+            <h1>PJ VISUALS</h1>
+            <p>Developer & Cinematic Storyteller</p>
+        </div>
+    </header>
+
+    <main id="work">
+        <section class="portfolio-section reveal">
+            <h2>Streets & Cinematic</h2>
+            <div class="image-grid">
+                <img src="https://images.unsplash.com/photo-1514565131-fce0801e5785?auto=format&fit=crop&w=800&q=80" alt="Night Street" class="zoom-img hover-link">
+                <img src="https://images.unsplash.com/photo-1558981806-ec527fa84c39?auto=format&fit=crop&w=800&q=80" alt="Motorcycle" class="zoom-img hover-link">
+                <img src="https://images.unsplash.com/photo-1605369572399-05d8d64a0f6e?auto=format&fit=crop&w=800&q=80" alt="Dark Aesthetic" class="zoom-img hover-link">
+            </div>
+        </section>
+
+        <!-- New Development Projects Section -->
+        <section id="projects" class="portfolio-section reveal">
+            <h2>Development Projects</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <h3>Interactive Kanban Board</h3>
+                    <p>A full-stack productivity tool built with HTML, CSS, and JS to track daily tasks.</p>
+                    <a href="#" class="btn hover-link">View Code</a>
+                </div>
+                <div class="project-card">
+                    <h3>Financial Market Dashboard</h3>
+                    <p>A dark-mode analytics dashboard featuring a live SIP investment calculator.</p>
+                    <a href="dashboard.html" class="btn hover-link">Open Dashboard</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="contact" class="footer reveal">
+        <h2>Let's Connect</h2>
+        <div class="contact-details">
+            <p><span>Email:</span> pankajchudasama2007@gmail.com</p>
+            <p><span>Phone:</span> +91 9328149575</p>
+            <p><span>Instagram:</span> @pankaj_chudasama._</p>
+            <p><span>Pin ID:</span> Jokers_lobby</p>
+        </div>
+    </footer>
+
+    <div id="imageModal" class="modal">
+        <span class="close-btn hover-link">&times;</span>
+        <img class="modal-content" id="expandedImg">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
